@@ -74,6 +74,8 @@ ENABLE_CACHE=true
 2. 在 `wrangler.toml` 中配置 `database_id` 和 `database_name`
 3. 若无 `wrangler.toml` ，可将 `example.wrangler.toml` 重命名并修改配置
 4. 重新部署生效
+参考设置 https://blog.809098.xyz/newsnow/
+在Cloudflare的page项目的 设置 -> 绑定 添加D1绑定 ,名称为: NEWSNOW_DB 值选择上面D1 SQL创建的名称自定义
 
 ### Docker 部署
 对于 Docker 部署，只需要项目根目录 `docker-compose.yaml` 文件，同一目录下执行
